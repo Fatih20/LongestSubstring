@@ -1,6 +1,8 @@
+package Naive;
+
 import java.util.HashMap;
 
-class SolutionNaive {
+public class SolutionNaive {
     public int lengthOfLongestSubstring(String s) {
         int longest = 0;
         for (int i = 0; i < s.length(); i++) {

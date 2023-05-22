@@ -1,6 +1,8 @@
+package Optimized;
+
 import java.util.HashMap;
 
-class SolutionOptimized {
+public class SolutionOptimized {
     public int lengthOfLongestSubstring(String s) {
         if (s.length() <= 1) {
             return s.length();
@@ -29,7 +31,6 @@ class SolutionOptimized {
                     }
                 }
                 i = newI;
-                System.out.println(s.charAt(i));
                 table.put(observed, j);
                 sameCharacterFound = true;
             }
